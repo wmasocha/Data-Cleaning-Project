@@ -19,7 +19,7 @@ run_analysis.R that does the following.
 * Downlowad data  and create a folder "UCI HAR Dataset"
 * create a run_analysis.R  and save it in the folder UCI HAR Dataset
 * Use the folder UCI HAR Dataset as the working directory
-* run_analysis.R  must produce a tidy data set named tidydata.txt and a final one called tidydataMEAN.txt save them in the folder UCI HAR Dataset
+* run_analysis.R  must produce a tidy data set named tidydataMEAN.txt save them in the folder UCI HAR Dataset
 
 * run_analysis.R is generated in:
     * R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
