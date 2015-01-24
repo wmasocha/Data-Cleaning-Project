@@ -25,7 +25,7 @@ run_analysis.R that does the following.
     * R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
     * Platform: x86_64-w64-mingw32/x64 (64-bit)
 
-* run_analysis.R installs and depends on the r packages:
-    *  plyr  and 
-    *  reshape2.
+* run_analysis.R depends on the r packages:
+    *  data.table and 
+    *  reshape2
  
