@@ -9,7 +9,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
  30 participants 
   6 activities
 
-Dataset size: 180 rows (30 subjects x 6 activities) and 68 columns ((17 time domains and fast fourier transform) x 2( X & Y) x 2 (mean and std))
+## Tidy_data_mean dataset generated
+* Data.frame':   180 obs. of  3 variables:
+* Subject  - Identifies the subject     : int 1..30
+* Activity_Label - the label of the activity done: Factor
+* MeanSamples  - Average of each variable for each activity and each subject : num 
 
 # Activity_labels (factor)
 * 1 WALKING
@@ -71,11 +75,5 @@ std(): Standard deviation
 
 - 'test/y_test.txt': Test labels.
 
-#Two data sets generated:
-second and final dataset
-## tidy_data_mean
-* data.frame':   180 obs. of  3 variables:
-* subject  - identifies the subject     : int
-* Activity_Label - the label of the activity done: Factor
-* MeanSamples  - average of each variable for each activity and each subject : num 
+
  
