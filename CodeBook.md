@@ -7,8 +7,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
  Subject (integer)
  30 participants 
- 
- 6 activities
+  6 activities
 
 Dataset size: 180 rows (30 subjects x 6 activities) and 68 columns ((17 time domains and fast fourier transform) x 2( X & Y) x 2 (mean and std))
 
@@ -72,17 +71,11 @@ std(): Standard deviation
 
 - 'test/y_test.txt': Test labels.
 
-The following files are available for the train and test data. Their descriptions are equivalent. 
-
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
-
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
-
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
-
-Notes: 
-======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+#Two data sets generated:
+second and final dataset
+## tidy_data_mean
+* data.frame':   180 obs. of  3 variables:
+* subject  - identifies the subject     : int
+* Activity_Label - the label of the activity done: Factor
+* MeanSamples  - average of each variable for each activity and each subject : num 
+ 
