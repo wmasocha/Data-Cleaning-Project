@@ -21,6 +21,7 @@ run_analysis.R that does the following.
 * Use the folder data/UCI HAR Dataset as the working directory
 * run_analysis.R  must produce two data sets 1. tidy_data.txt from which a second tidy data set named tidy_data_mean.txt will be generated and save them in the folder data
 
+## Steps in run_analysis.R
     * Read activity labels and data column names
     * select only the means and standard deviations for each measurement.
     * Read X_test, y_test,subject_test, X_train, y_train and subject_train data
@@ -30,7 +31,7 @@ run_analysis.R that does the following.
    * Merge the training and the test sets to create one data set
    * Apply mean function to dataset using dcast function
    * Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-    Write the data sets in working directory
+   * Write the data sets in working directory
 
 
 * run_analysis.R depends on the r packages:
