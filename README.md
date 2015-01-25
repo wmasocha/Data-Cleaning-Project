@@ -18,14 +18,15 @@ run_analysis.R that does the following.
 ## Steps in project
 * Downlowad data  and create a folder "UCI HAR Dataset"
 * create a run_analysis.R  and save it in the folder UCI HAR Dataset
-* Use the folder UCI HAR Dataset as the working directory
-* run_analysis.R  must produce a tidy data set named tidydataMEAN.txt save them in the folder UCI HAR Dataset
+* Use the folder data/UCI HAR Dataset as the working directory
+* run_analysis.R  must produce two data sets 1. tid_data.txt from which a second tidy data set named tidy_data_mean.txt will be genetaed and save them in the folder data
 
 * run_analysis.R is generated in:
     * R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
     * Platform: x86_64-w64-mingw32/x64 (64-bit)
 
 * run_analysis.R depends on the r packages:
+    * plyr   
     *  data.table and 
     *  reshape2
  
