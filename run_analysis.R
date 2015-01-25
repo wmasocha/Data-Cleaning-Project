@@ -54,5 +54,5 @@ tidy_data   = dcast(melt_data, subject + Activity_Label ~ variable, mean)
 ## Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy_data_mean <- ddply(melt(tidy_data, id.vars=c("subject", "Activity_Label")), .(subject, Activity_Label), summarise, MeanSamples=mean(value))
 
-write.table(tidy_data, file = "./tidy_data.txt")
-write.table(tidy_data_mean, file = "./tidy_data_mean.txt")
+write.table(tidy_data, file = "./tidy_data.txt",row.names = FALSE)
+write.table(tidy_data_mean, file = "./tidy_data_mean.txt",row.names = FALSE)
